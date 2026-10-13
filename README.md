@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Location-Indonesia-27272a?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
   <img src="https://img.shields.io/badge/Status-Open_for_Opportunities-10b981?style=flat-square&logo=statuspage&logoColor=white" alt="Status" />
   <a href="https://book-lapang.vercel.app"><img src="https://img.shields.io/badge/Live_App-BookLapang-0ea5e9?style=flat-square&logo=vercel&logoColor=white" alt="BookLapang" /></a>
-  <a href="https://selaras-kas.vercel.app"><img src="https://img.shields.io/badge/Live_PWA-SelarasKas-10b981?style=flat-square&logo=pwa&logoColor=white" alt="SelarasKas" /></a>
+  <a href="https://yimi.my.id"><img src="https://img.shields.io/badge/Live_Portal-YIMI-10b981?style=flat-square&logo=nextdotjs&logoColor=white" alt="YIMI" /></a>
 </p>
 
 <sub>Software Engineer | Full-Stack Web & Android Native. I build lightweight, resilient, and production-grade applications with zero tolerance for runtime errors.</sub>
@@ -100,21 +100,21 @@ Aplikasi pendataan warga RT/RW 100% *offline-first* dengan integrasi penuh forma
 <tr>
 <td width="50%" valign="top">
 
-#### SelarasKas: Personal Finance PWA
-<sub>PHP 8.3 · Vanilla JS · Supabase Pooler · Vercel Serverless</sub>
+#### YIMI Foundation Portal: Educational & Social NGO Platform
+<sub>Next.js 16 · React 19 · TypeScript · Tailwind CSS · Supabase · Vercel</sub>
 
 <p>
-  <a href="https://selaras-kas.vercel.app"><img src="https://img.shields.io/badge/Live_App-selaras--kas.vercel.app-10b981?style=flat-square&logo=pwa&logoColor=white" alt="Live App" /></a>
+  <a href="https://yimi.my.id"><img src="https://img.shields.io/badge/Live_Portal-yimi.my.id-10b981?style=flat-square&logo=vercel&logoColor=white" alt="Live Portal" /></a>
 </p>
 
-Platform pencatatan keuangan pribadi dan pemantauan target tabungan dengan performa ringan:
+Portal yayasan sosial dan pendidikan modern berbasis arsitektur web performa tinggi:
 
-- PWA yang dapat dipasang di layar utama ponsel (*installable*) dengan *caching service worker* untuk akses *offline*
-- Arsitektur routing *Single-Lambda* `vercel-php` yang stabil di lingkungan komputasi *serverless*
-- Terhubung ke Supabase PostgreSQL melalui *Transaction Connection Pooler* untuk efisiensi koneksi tanpa batas *pool*
-- Mesin analitik anggaran visual menggunakan modular *vanilla* JavaScript tanpa kerangka kerja berat
+- Performa SSR optimal dengan Next.js 16 App Router dan pemuatan aset statis terdistribusi Vercel CDN
+- Desain antarmuka responsif dan aksesibel terintegrasi animasi interaktif GSAP
+- Backend berbasis Supabase dengan struktur data tersentralisasi untuk verifikasi program dan kontak
+- Konfigurasi schema markup terstruktur dan optimasi metadata SEO ramah perayap (*crawler*)
 
-`PHP 8.3` `PWA` `Supabase` `Tailwind CSS` `Vercel`
+`Next.js 16` `React 19` `TypeScript` `Tailwind` `Supabase` `Vercel`
 
 </td>
 <td width="50%" valign="top">
@@ -159,7 +159,7 @@ Sistem *pipeline* terotomatisasi penuh untuk perancangan, sintesis, dan perakita
 <p align="center">
   <a href="https://github.com/rizdwi"><img src="https://img.shields.io/badge/GitHub-@rizdwi-18181b?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://book-lapang.vercel.app"><img src="https://img.shields.io/badge/App-BookLapang-0ea5e9?style=flat-square&logo=vercel&logoColor=white" alt="BookLapang" /></a>
-  <a href="https://selaras-kas.vercel.app"><img src="https://img.shields.io/badge/PWA-SelarasKas-10b981?style=flat-square&logo=pwa&logoColor=white" alt="SelarasKas" /></a>
+  <a href="https://yimi.my.id"><img src="https://img.shields.io/badge/Portal-YIMI-10b981?style=flat-square&logo=nextdotjs&logoColor=white" alt="YIMI" /></a>
 </p>
 
 <div align="center">

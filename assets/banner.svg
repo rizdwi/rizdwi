@@ -50,7 +50,7 @@
     <!-- Web Pill -->
     <rect x="0" y="0" width="238" height="32" rx="6" fill="#18181b" stroke="#27272a" stroke-width="0.8"/>
     <circle cx="14" cy="16" r="3" fill="#38bdf8"/>
-    <text x="26" y="20" fill="#f4f4f5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="600">Web: Laravel 11 · PWA · Vue</text>
+    <text x="26" y="20" fill="#f4f4f5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="600">Web: Laravel 11 · Next.js · Vue</text>
 
     <!-- Mobile Pill -->
     <rect x="0" y="42" width="238" height="32" rx="6" fill="#18181b" stroke="#27272a" stroke-width="0.8"/>
