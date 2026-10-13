@@ -1,17 +1,18 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e1a,100:18181b&height=150&section=header&text=&fontSize=30&fontColor=FAFAFA&animation=fadeIn&descAlignY=75" />
+<a href="https://github.com/rizdwi">
+  <img src="https://raw.githubusercontent.com/rizdwi/rizdwi/main/assets/banner.svg" width="100%" alt="Rizki Dwi Sandy Profile Banner" />
+</a>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=FAFAFA&center=true&vCenter=true&width=700&height=45&lines=Rizky+Dwi+%E2%80%94+Software+Engineer;Building+Production-Grade+Products;Flutter+%7C+Laravel+%7C+Android+%7C+PWA+%7C+AI+Automation)](https://git.io/typing-svg)
-
 <p>
-  <a href="https://github.com/rizdwi"><img src="https://img.shields.io/badge/GitHub-rizdwi-18181B?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Location-Indonesia-27272A?style=for-the-badge&logo=googlemaps&logoColor=white" />
-  <img src="https://img.shields.io/badge/Focus-Production_SaaS_%26_Mobile-FAFAFA?style=for-the-badge&labelColor=FAFAFA&color=FAFAFA&logoColor=09090B" />
-  <img src="https://img.shields.io/badge/Available_for_Collab-0a0e1a?style=for-the-badge&logo=handshake&logoColor=white" />
+  <a href="https://github.com/rizdwi"><img src="https://img.shields.io/badge/GitHub-rizdwi-18181b?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <img src="https://img.shields.io/badge/Location-Indonesia-27272a?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
+  <img src="https://img.shields.io/badge/Status-Open_for_Opportunities-10b981?style=flat-square&logo=statuspage&logoColor=white" alt="Status" />
+  <a href="https://book-lapang.vercel.app"><img src="https://img.shields.io/badge/Live_App-BookLapang-0ea5e9?style=flat-square&logo=vercel&logoColor=white" alt="BookLapang" /></a>
+  <a href="https://selaras-kas.vercel.app"><img src="https://img.shields.io/badge/Live_PWA-SelarasKas-10b981?style=flat-square&logo=pwa&logoColor=white" alt="SelarasKas" /></a>
 </p>
 
-<sub>Software Engineer · AI Automation · Mobile & Web — I ship lightweight, zero-bug, offline-capable products that users actually keep.</sub>
+<sub>Software Engineer | Full-Stack Web & Android Native. I build lightweight, resilient, and production-grade applications with zero tolerance for runtime errors.</sub>
 
 </div>
 
@@ -19,133 +20,120 @@
 
 ---
 
-### About Me
+### Core Philosophy
 
-```ts
-const rizky = {
-  role: "Software Engineer — Full-Stack & Mobile",
-  philosophy: "Lightweight · Robust · Zero tolerance for errors",
-  currentlyBuilding: [
-    "GeoWake — Geofence Transit Alarm (Flutter)",
-    "SelarasKas — Personal Finance PWA"
-  ],
-  strengths: [
-    "Offline-first architecture",
-    "Battery-efficient background tasks",
-    "Clean GlassMonochrome UI",
-    "PWA & Serverless deploy"
-  ],
-  mantra: "Ship fast. Keep it light. Handle every edge case."
+```typescript
+interface EngineeringStandard {
+  architecture: "Minimal abstractions (YAGNI), maximum runtime stability";
+  resilience: "Zero tolerance for unhandled exceptions and silent data corruption";
+  offlineFirst: "Local SQLite/Room caching ensures full usability without internet";
+  concurrency: "Pessimistic locking and atomic DB transactions prevent race conditions";
+  codeDiscipline: "Lightweight dependencies, fast cold starts, clean modular codebases";
 }
 ```
 
-> Rekayasa bukan soal fitur terbanyak — tapi **arsitektur paling ringan yang tetap tahan banting di produksi**. Setiap repo di bawah ini punya alasan teknis yang bisa dipertanggungjawabkan.
+> Rekayasa perangkat lunak bukan tentang banyaknya dependensi pihak ketiga, melainkan **arsitektur paling efisien yang terbukti stabil di lingkungan produksi**. Setiap repositori memiliki fondasi teknis yang teruji.
 
 ---
 
-### Tech Stack
+### Tech Stack & Tooling
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=dart,flutter,kotlin,php,laravel,js,html,css,tailwind,python,supabase,vercel,git,androidstudio,vscode&perline=8" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,kotlin,dart,flutter,js,tailwind,python,fastapi,sqlite,postgres,supabase,vercel,git,androidstudio,vscode&perline=8" alt="Tech Arsenal" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Flutter-GlassMonochrome-02569B?style=flat-square&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kotlin-Offline--First-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-11.x-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-8.3-777BB4?style=flat-square&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/PWA-Standalone-5A0FC8?style=flat-square&logo=pwa&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-Pooler-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-Serverless-000000?style=flat-square&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" />
-</p>
-
-| Layer | Tools I actually ship with |
+| Domain | Production Tools & Technologies |
 | :--- | :--- |
-| **Mobile** | Flutter (Dart), Kotlin (Android Native) · `geolocator` · `flutter_foreground_task` · `flutter_map` · `audioplayers` |
-| **Web / PWA** | PHP 8.3 · Laravel 11 · Blade · Vanilla JS (modular `js/`) · Tailwind · Service Worker · Web Manifest |
-| **Backend & Data** | Supabase PostgreSQL (Pooler) · SQLite (offline) · Room · SharedPreferences · `vercel-php` Single-Lambda |
-| **Automation & AI** | FastAPI · Edge-TTS · FFmpeg · Fal.ai / Seedance · Hermes LLM orchestration |
-| **Principles** | YAGNI · Offline-first · Adaptive polling · Pessimistic locking · Ponytail ladder |
+| **Web Platforms** | PHP 8.3, Laravel 11, Blade, Vanilla JS (Modular Architecture), Tailwind CSS, PWA (Service Workers, Web Manifest) |
+| **Mobile & Android** | Kotlin, Android Jetpack, Room Database, SQLite, Material Design 3, SAXParser, ViewBinding |
+| **Backend & Cloud** | PostgreSQL (Supabase Pooler), SQLite, MySQL, Vercel Serverless (`vercel-php` Single-Lambda), FastAPI |
+| **Automation & Media** | Python, FFmpeg Compositing, Edge-TTS, Fal.ai Video API, SQLModel, APScheduler |
+| **Engineering Practices** | YAGNI, Offline-First Architecture, Pessimistic Locking, MVVM, MVC, Repository Pattern |
 
 ---
 
-### Featured Projects — Production, Not Portfolio Filler
+### Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### GeoWake — Transit Geofence Alarm
-<sub>Flutter · GlassMonochrome · Offline Haversine</sub>
+#### BookLapang: Sports Venue Booking Platform
+<sub>Laravel 11 · PHP 8.3 · Tailwind CSS · Alpine.js · Vercel</sub>
 
-> Bangun tepat di halte. Alarm berbasis jarak yang **100% offline** — tanpa API berbayar.
+<p>
+  <a href="https://book-lapang.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-book--lapang.vercel.app-0ea5e9?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" /></a>
+  <a href="https://github.com/rizdwi/BookLapang"><img src="https://img.shields.io/badge/Source-rizdwi/BookLapang-18181b?style=flat-square&logo=github&logoColor=white" alt="GitHub Source" /></a>
+</p>
 
-- Adaptive GPS polling (5s → 5min) hemat baterai
-- Haversine math murni di CPU, anti false-trigger (debounce 2x)
-- Foreground Service + `USAGE_ALARM` tembus Silent/DND
-- `flutter_map` + Nominatim — zero Google Maps cost
+Solusi reservasi lapangan olahraga anti double-booking dengan arsitektur data ketat:
 
-`Flutter` `Dart` `geolocator` `flutter_map` `audioplayers`
+- Pencegahan *race condition* dengan `DB::transaction()` dan *pessimistic locking* (`lockForUpdate()`)
+- *Quota guard* otomatis yang membatasi maksimal 2 reservasi aktif belum bayar per pengguna
+- Integrasi simulasi pembayaran instan QRIS dan Virtual Account BCA
+- Lapisan *caching* internal untuk kecepatan respons katalog jadwal
 
-[Source Code](https://github.com/rizdwi/GeoWake) · `GlassMonochrome` · `offline-first`
+`Laravel 11` `Blade` `Tailwind` `Alpine.js` `SQLite` `Vercel`
 
 </td>
 <td width="50%" valign="top">
 
-#### SelarasKas — Personal Finance PWA
-<sub>PHP · PWA · Supabase · Vercel</sub>
+#### SIMWarga: Offline Population Data Manager
+<sub>Kotlin · Android Native · Room DB · Standalone OpenXML</sub>
 
-> Kelola pemasukan, pengeluaran & target tabungan — installable, ringan, elegan.
+<p>
+  <a href="https://github.com/rizdwi/SIMWarga"><img src="https://img.shields.io/badge/Source-rizdwi/SIMWarga-18181b?style=flat-square&logo=github&logoColor=white" alt="GitHub Source" /></a>
+  <a href="https://github.com/rizdwi/SIMWarga/blob/main/SIMWarga-debug.apk"><img src="https://img.shields.io/badge/APK-6.4_MB_Standalone-10b981?style=flat-square&logo=android&logoColor=white" alt="Download APK" /></a>
+</p>
 
-[![Live](https://img.shields.io/badge/Live-selaras--kas.vercel.app-0a0e1a?style=flat-square&logo=vercel&logoColor=white)](https://selaras-kas.vercel.app)
+Aplikasi pendataan warga RT/RW 100% *offline-first* dengan integrasi penuh format Microsoft Excel:
 
-- PWA installable (Manifest + SW) + offline shell
-- Analytics & budgeting engine (vanilla modular JS)
-- Supabase Pooler — aman untuk serverless
-- Single-Lambda `vercel-php` routing (bukan rewrite rapuh)
+- Aman dari kebocoran data karena beroperasi tanpa izin internet (`INTERNET` *permission* dihapus)
+- *Parser* dan generator format `.xlsx` kustom berbasis SAX & ZIP *stream* tanpa dependensi Apache POI (~6.4 MB total APK)
+- Kesesuaian 18 kolom Buku Induk Pendaftaran Penduduk dengan kompatibilitas impor dan ekspor bolak-balik (*round-trip*)
+- Proteksi keamanan data warga dengan PIN terenkripsi satu arah SHA-256
 
-`PHP` `PWA` `Supabase` `Vercel` `Tailwind`
-
-[Live Demo](https://selaras-kas.vercel.app) · [Source](https://github.com/rizdwi/SelarasKas) · `fintech`
+`Kotlin` `Android SDK` `Room DB` `OpenXML` `Material 3`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### BookLapang — Sports Venue Booking Engine
-<sub>Laravel 11 · PHP 8.3 · Tailwind · Alpine.js</sub>
+#### SelarasKas: Personal Finance PWA
+<sub>PHP 8.3 · Vanilla JS · Supabase Pooler · Vercel Serverless</sub>
 
-[![Live](https://img.shields.io/badge/Live-book--lapang.vercel.app-0d9488?style=flat-square&logo=vercel&logoColor=white)](https://book-lapang.vercel.app)
+<p>
+  <a href="https://selaras-kas.vercel.app"><img src="https://img.shields.io/badge/Live_App-selaras--kas.vercel.app-10b981?style=flat-square&logo=pwa&logoColor=white" alt="Live App" /></a>
+</p>
 
-> Solusi anti double-booking untuk penyewaan lapangan olahraga.
+Platform pencatatan keuangan pribadi dan pemantauan target tabungan dengan performa ringan:
 
-- `DB::transaction + lockForUpdate()` — cegah race condition
-- Quota guard: max 2 unpaid booking aktif
-- QRIS & VA BCA + dashboard omset
-- Cache layer untuk katalog instan
+- PWA yang dapat dipasang di layar utama ponsel (*installable*) dengan *caching service worker* untuk akses *offline*
+- Arsitektur routing *Single-Lambda* `vercel-php` yang stabil di lingkungan komputasi *serverless*
+- Terhubung ke Supabase PostgreSQL melalui *Transaction Connection Pooler* untuk efisiensi koneksi tanpa batas *pool*
+- Mesin analitik anggaran visual menggunakan modular *vanilla* JavaScript tanpa kerangka kerja berat
 
-`Laravel` `Blade` `Tailwind` `Alpine.js` `Vercel`
-
-[Live Demo](https://book-lapang.vercel.app) · [Source](https://github.com/rizdwi/BookLapang)
+`PHP 8.3` `PWA` `Supabase` `Tailwind CSS` `Vercel`
 
 </td>
 <td width="50%" valign="top">
 
-#### SIMWarga — Offline KK/NIK Manager
-<sub>Kotlin · Android Native · Excel Round-Trip</sub>
+#### StoryTubeAI: Autonomous Media Automation Engine
+<sub>FastAPI · Python 3.11 · FFmpeg · Edge-TTS · Fal.ai</sub>
 
-> Pendataan warga RT/RW 100% offline — tanpa `INTERNET` permission.
+<p>
+  <img src="https://img.shields.io/badge/Architecture-Autonomous_Pipeline-f59e0b?style=flat-square&logo=fastapi&logoColor=white" alt="Architecture" />
+</p>
 
-- Import/export `.xlsx` true round-trip (18 kolom Buku Induk)
-- Zero-dependency OpenXML parser (~6.4 MB APK)
-- `@Relation` Cascade + validasi 16-digit NIK
-- PIN SHA-256, reactive `Flow`/`StateFlow`
+Sistem *pipeline* terotomatisasi penuh untuk perancangan, sintesis, dan perakitan video edukasi:
 
-`Kotlin` `Room` `SAXParser` `Excel`
+- Orkestrasi berantai dari *prompt generation*, penilaian kecocokan adegan, hingga sinkronisasi narasi Edge-TTS
+- Komposisi video *headless* berkecepatan tinggi dengan FFmpeg, efek dinamis *Ken Burns*, dan *hardcoded subtitles*
+- Sistem pemulihan status kerja otomatis berbasis APScheduler dengan pembersihan berkala berkas sementara (*scratch files*)
+- Manajemen terpadu publikasi terjadwal menggunakan YouTube Data API v3
 
-[Source Code](https://github.com/rizdwi/SIMWarga) · `offline-first` · `6.4 MB`
+`FastAPI` `Python` `FFmpeg` `Edge-TTS` `SQLModel`
 
 </td>
 </tr>
@@ -153,33 +141,27 @@ const rizky = {
 
 ---
 
-### GitHub Analytics
+### GitHub Activity & Metrics
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rizdwi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0e1a&title_color=FAFAFA&text_color=A1A1AA&icon_color=FAFAFA&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rizdwi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0e1a&title_color=FAFAFA&text_color=A1A1AA&langs_count=8" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=rizdwi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=09090b&title_color=fafafa&text_color=a1a1aa&icon_color=38bdf8&count_private=true" alt="GitHub Stats" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rizdwi&layout=compact&theme=tokyonight&hide_border=true&bg_color=09090b&title_color=fafafa&text_color=a1a1aa&langs_count=8" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rizdwi&theme=tokyonight&hide_border=true&background=0a0e1a&ring=FAFAFA&fire=FF1744&currStreakLabel=FAFAFA" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rizdwi&theme=tokyonight" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rizdwi&theme=tokyonight&hide_border=true&background=09090b&ring=38bdf8&fire=10b981&currStreakLabel=fafafa" alt="Streak Stats" />
 </p>
 
 ---
 
-### Let's Connect
+### Connect & Collaboration
 
 <p align="center">
-  <a href="https://github.com/rizdwi"><img src="https://img.shields.io/badge/Explore_My_Repos-18181B?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://selaras-kas.vercel.app"><img src="https://img.shields.io/badge/Try_SelarasKas-0a0e1a?style=for-the-badge&logo=pwa&logoColor=white" /></a>
-  <a href="https://book-lapang.vercel.app"><img src="https://img.shields.io/badge/Try_BookLapang-0d9488?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://github.com/rizdwi"><img src="https://img.shields.io/badge/GitHub-@rizdwi-18181b?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://book-lapang.vercel.app"><img src="https://img.shields.io/badge/App-BookLapang-0ea5e9?style=flat-square&logo=vercel&logoColor=white" alt="BookLapang" /></a>
+  <a href="https://selaras-kas.vercel.app"><img src="https://img.shields.io/badge/PWA-SelarasKas-10b981?style=flat-square&logo=pwa&logoColor=white" alt="SelarasKas" /></a>
 </p>
 
 <div align="center">
-  <sub>Open to collaborations — especially lightweight SaaS & mobile products with real users.<br/>If you value <b>robust &gt; rushed</b>, we'll get along.</sub>
-  <br/><br/>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:18181b,100:0a0e1a&height=100&section=footer&text=&fontSize=30&fontColor=FAFAFA&animation=fadeIn" width="100%"/>
+  <sub>Terbuka untuk kolaborasi rekayasa perangkat lunak, pengembangan produk mandiri (*SaaS*), dan aplikasi *mobile* berorientasi keandalan sistem.</sub>
 </div>
